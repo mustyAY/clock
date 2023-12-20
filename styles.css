@@ -1,0 +1,89 @@
+#clock {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+.number {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
+
+.handle {
+    position: absolute;
+    background-color: black;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: bottom;
+}
+
+.handle__milli {
+    height: 50px;
+    width: 1px;
+}
+
+.handle__second {
+    background-color: red;
+    height: 230px;
+    width: 1px;
+}
+
+.handle__minute {
+    height: 200px;
+    width: 2px;
+}
+
+.handle__hour {
+    height: 150px;
+    width: 3px;
+}
+
+.number:nth-of-type(2) {
+    transform: rotate(30deg);
+}
+
+.number:nth-of-type(3) {
+    transform: rotate(60deg);
+}
+
+.number:nth-of-type(4) {
+    transform: rotate(90deg);
+}
+
+.number:nth-of-type(5) {
+    transform: rotate(120deg);
+}
+
+.number:nth-of-type(6) {
+    transform: rotate(150deg);
+}
+
+.number:nth-of-type(7) {
+    transform: rotate(180deg);
+}
+
+.number:nth-of-type(8) {
+    transform: rotate(210deg);
+}
+
+.number:nth-of-type(9) {
+    transform: rotate(240deg);
+}
+
+.number:nth-of-type(10) {
+    transform: rotate(270deg);
+}
+
+.number:nth-of-type(11) {
+    transform: rotate(300deg);
+}
+
+.number:nth-of-type(12) {
+    transform: rotate(330deg);
+}
